@@ -2,7 +2,6 @@
 This is a GIS algorithm written in python to determine whether a point lies inside or outside a polygon. 
 
 Author: Bryce Patterson
-Due February 13, 2023
 
 Brief Overview
 This program is designed to detect whether a particular point is present 
