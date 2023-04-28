@@ -1,9 +1,11 @@
 # PointInPolygon
+
 This is a GIS algorithm written in python to determine whether a point lies inside or outside a polygon. 
 
 Author: Bryce Patterson
 
-Brief Overview
+## Brief Overview
+
 This program is designed to detect whether a particular point is present 
 within a polygon. It takes a file as input from the command line and 
 outputs whether the point is inside, outside, or on the edge of a polygon. This
@@ -18,13 +20,13 @@ the program is a function called approx. To calculate points with a finer
 degree of certainty simply change the threshold variable to a smaller amount,
 and larger for a higher degree of ambiguity.
 
-Instructions on how to Compile and Run the Point In Polygon Program
-1. Create an input file that the program can run in the following manner:
-[Insert number of polygon edges here]
-[Insert each polygon edge on its own line, no more or less than the previous 
-number]
-[Insert each query point to be tested, also on its own line]
-An example can be found in testfile.txt
+## Instructions on how to Compile and Run the Point In Polygon Program
+1. Create an input file that the program can run in the following manner:  
+  [Insert number of polygon edges here]  
+  [Insert each polygon edge on its own line, no more or less than the previous number]  
+  [Insert each query point to be tested, also on its own line]  
+An example can be found in testfile.txt  
+
 2. Run the program
 Using your operating system's command line, go to the directory that holds the 
 program and type the following, then press enter:
